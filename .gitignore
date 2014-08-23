@@ -1,0 +1,11 @@
+# 此为注释 － 将被Git忽略
+# ignore .a end file
+*.a
+# but lib.a
+!lib.a
+# just ignore TODO file under the root, but subdir/TODO
+/TODO
+# ignore allfile under build/ dir
+build/
+# ignore doc/notes.txt but doc/derver/arch.txt
+doc/*.txt
